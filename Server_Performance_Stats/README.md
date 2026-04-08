@@ -1,3 +1,4 @@
+'''
 Output = >
 cloud_user@0f07ffe2721c:~/linux_scripts/Server_Performance_Stats$ ./server_stats.sh 
 Current date and time is : Wed Apr  8 09:28:48 UTC 2026
@@ -21,3 +22,4 @@ Uptime is : up 51 minutes
 OS version is : Ubuntu 20.04.6 LTS
 Logged in users are : cloud_user pts/0        2026-04-08 08:43 (localhost)
 cloud_user pts/1        2026-04-08 09:17 (localhost)
+'''
