@@ -1,10 +1,11 @@
 #!/bin/bash
 
 FILE="README.md"
+ 
+echo -e "\n---\n### Server Stats Run: $(date)\n" >> $FILE
+echo "'''text" >> $FILE
 
-echo -e "###Server Performance Stats\n" >> $FILE
-
-echo "'''" >> $FILE
+#Solution
 
 #Date
 echo "Current date and time is : $(date)" >> $FILE
@@ -24,5 +25,7 @@ echo "Uptime is : $(uptime -p)" >> $FILE
 echo "OS version is : $(lsb_release -d | awk -F"\t" '{print $2}')" >> $FILE
 #login users
 echo "Logged in users are : $(who)" >> $FILE
+
+#Solution End
 
 echo "'''" >> $FILE
